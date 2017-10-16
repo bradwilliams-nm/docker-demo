@@ -1,4 +1,4 @@
-FROM node:4.3.0
+FROM node:8.7.0
 
 RUN mkdir -p /opt/app && cd /opt/app && npm install pg
 
